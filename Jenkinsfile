@@ -9,7 +9,7 @@ pipeline {
 					reportDir: '.',
 					reportFiles: 'index.html',
 					keepAll: true,
-					reportTitles: 'Publish title',
+					//reportTitles: 'Publish title',
 					alwaysLinkToLastBuild: true
 				)
 			}
