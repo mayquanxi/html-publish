@@ -4,6 +4,7 @@ pipeline {
 		stage('publish html') {
 			steps {
 				publishHTML(
+					allowMissing: false,
 					reportName: 'Publish example',
 					reportDir: '.',
 					reportFiles: 'index.html',
